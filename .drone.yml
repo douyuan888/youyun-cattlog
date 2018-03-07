@@ -1,0 +1,6 @@
+---
+pipeline:
+  build:
+    image: 192.168.6.33:9080:80/library/dind:v0.6.0
+    commands:
+      - ./scripts/ci

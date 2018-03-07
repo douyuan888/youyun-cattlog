@@ -1,0 +1,11 @@
+version: '2'
+services:
+    nat:
+        image: youyun-private-harbor:9080/library/none
+        labels:
+            io.rancher.service.selector.container: experimental-windows-rancher
+
+    transparent:
+        image: youyun-private-harbor:9080/library/none
+        labels:
+            io.rancher.service.selector.container: experimental-windows-rancher
